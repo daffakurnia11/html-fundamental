@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Box Model</title>
+  <style>
+    div.kotak {
+      text-align: center;
+      background-color: aqua;
+      margin-bottom: 100px;
+
+      /* margin-top: 50px;
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-bottom: 75px; */
+      /* margin: 50px 100px 75px; */
+      /* Shorthand */
+      /* margin : top right bottom center */
+
+      /* padding-top: 100px;
+      padding-bottom: 50px;
+      padding-left: 50px;
+      padding-right: 75px; */
+      /* padding: 100px 75px 50px 50px; */
+      /* Shorthand */
+      /* padding : top right bottom center */
+
+      border-left-style: solid;
+      border-right-style: double;
+      border-top-style: dotted;
+      border-bottom-style: dashed;
+      /* Nilai : dotted, dashed, double, groove, ridge, inset, outset, hidden, none */
+      border-width: 10px;
+      /* Satuan : px */
+      border-color: brown;
+      /* Nilai : nama warna, hex, rgb */
+      /* Shorthand */
+      /* border: border-width border-style border-color */
+
+      /* Box Sizing */
+    }
+
+    div {
+      background-color: aqua;
+      padding: 25px;
+      text-align: justify;
+      border: 10px solid salmon;
+      margin: 25px 0;
+      width: 400px;
+    }
+
+    div.box-sizing {
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="kotak">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, officiis.</p>
+  </div>
+
+  <div>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi repellendus quia fugit suscipit blanditiis odit
+    ipsam explicabo, quis pariatur cumque impedit magni rerum at nihil animi eos sapiente laboriosam magnam debitis
+    libero, non velit ipsum illum alias. Possimus molestiae velit impedit porro autem quas facere quis! Ut esse
+    voluptate est?
+  </div>
+  <div class="box-sizing">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi repellendus quia fugit suscipit blanditiis odit
+    ipsam explicabo, quis pariatur cumque impedit magni rerum at nihil animi eos sapiente laboriosam magnam debitis
+    libero, non velit ipsum illum alias. Possimus molestiae velit impedit porro autem quas facere quis! Ut esse
+    voluptate est?
+  </div>
+</body>
+
+</html>
