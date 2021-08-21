@@ -8,24 +8,21 @@
   <title>Document</title>
   <style>
     div {
-      background-color: aqua;
-      margin-bottom: 20px;
+      border: 2px solid red;
     }
 
-    span {
-      background-color: coral;
-      display: inline-block;
-      /* height: 30px; */
-      margin-top: 30px;
-      margin-bottom: 30px;
+    img {
+      float: left;
     }
 
-    .kotak {
-      width: 200px;
-      height: 200px;
-      /* DEFAULT!! => overflow: visible;  */
-      /* overflow: visible, hidden, auto, scroll */
-      overflow: auto;
+    .float {
+      float: right;
+      padding: 10px;
+      border-color: blue;
+    }
+
+    .clear {
+      clear: right;
     }
   </style>
 </head>
@@ -33,36 +30,25 @@
 <body>
 
   <div>
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatem impedit alias consectetur nostrum,
-    odit vel delectus modi. Sed impedit fugit quisquam accusamus id laboriosam, rem obcaecati reiciendis neque
-    quaerat, iste dicta libero numquam, vel incidunt porro aperiam unde illo.
-    <span>Repellat ducimus quisquam perferendis ullam similique</span>.
-    Delectus facilis minus, tempora maxime voluptatibus officiis? Sit placeat
-    recusandae quisquam quo, eveniet illo tenetur porro suscipit ea, accusantium explicabo tempora vitae cupiditate
-    perspiciatis est, qui veniam minus laboriosam animi veritatis adipisci maxime cumque delectus? Nostrum
-    necessitatibus neque soluta repudiandae consequuntur dicta saepe, inventore quae molestiae, veritatis, magni odit
-    voluptas voluptatibus doloribus beatae aut.
+    <p>
+      <img src="img/logo.png" alt="">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem itaque optio explicabo, sapiente iste, dolor,
+      saepe repellendus voluptate sunt soluta dolore! Reiciendis eius, necessitatibus illo distinctio commodi dolores
+      repellendus dolorum explicabo vitae? Repellat qui provident, commodi deserunt quaerat earum soluta. Sequi numquam
+      consequuntur harum dolor ipsam nam, atque ab ea aperiam sit unde ullam expedita maiores enim ipsum odit id
+      exercitationem magnam nemo iste, eos quod! Saepe quasi reprehenderit ratione?
+    </p>
   </div>
 
-  <div>
+  <br><br><br><br>
 
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatem impedit alias consectetur nostrum,
-    odit vel delectus modi. Sed impedit fugit quisquam accusamus id laboriosam, rem obcaecati reiciendis neque
-    quaerat, iste dicta libero numquam, vel incidunt porro aperiam unde illo.
-    <span>Repellat ducimus quisquam perferendis ullam similique</span>.
-    Delectus facilis minus, tempora maxime voluptatibus officiis? Sit placeat
-    recusandae quisquam quo, eveniet illo tenetur porro suscipit ea, accusantium explicabo tempora vitae cupiditate
-    perspiciatis est, qui veniam minus laboriosam animi veritatis adipisci maxime cumque delectus? Nostrum
-    necessitatibus neque soluta repudiandae consequuntur dicta saepe, inventore quae molestiae, veritatis, magni odit
-    voluptas voluptatibus doloribus beatae aut.
-
-  </div>
-
-  <div class="kotak">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae est nemo perspiciatis et voluptatibus, hic
-      facilis similique accusamus quos, eaque eius, fugit architecto maxime? Molestiae, aut optio cupiditate doloribus
-      ea tempora pariatur dolores a magnam est animi alias eaque dolore eum? Laboriosam sunt dignissimos, placeat
-      laborum eaque minus veniam sapiente!</p>
+  <div class="clear">
+    <div class="float">float</div>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt laboriosam officiis, voluptas
+    nisi repudiandae
+    totam in doloremque ratione ea natus facilis soluta voluptates, repellat, quo corrupti dolorum? Id, explicabo,
+    molestiae magni quae sed soluta provident alias itaque omnis maiores doloremque qui, voluptas facere vero nostrum.
+    Nisi quisquam ducimus dicta tenetur?
   </div>
 
 </body>
