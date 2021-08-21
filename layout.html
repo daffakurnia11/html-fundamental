@@ -8,47 +8,47 @@
   <title>Document</title>
   <style>
     div {
-      border: 2px solid red;
+      width: 200px;
+      height: 200px;
+      /* margin: 25px; */
     }
 
-    img {
-      float: left;
+    .kotak1 {
+      background-color: cadetblue;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      /* margin-top: 50px; */
     }
 
-    .float {
-      float: right;
-      padding: 10px;
-      border-color: blue;
+    .kotak2 {
+      background-color: coral;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scaleX(1) skewX(15deg);
     }
 
-    .clear {
-      clear: right;
+    .kotak3 {
+      width: 100%;
+      height: 300px;
+      background-color: greenyellow;
+      position: relative;
     }
   </style>
 </head>
 
 <body>
 
-  <div>
-    <p>
-      <img src="img/logo.png" alt="">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem itaque optio explicabo, sapiente iste, dolor,
-      saepe repellendus voluptate sunt soluta dolore! Reiciendis eius, necessitatibus illo distinctio commodi dolores
-      repellendus dolorum explicabo vitae? Repellat qui provident, commodi deserunt quaerat earum soluta. Sequi numquam
-      consequuntur harum dolor ipsam nam, atque ab ea aperiam sit unde ullam expedita maiores enim ipsum odit id
-      exercitationem magnam nemo iste, eos quod! Saepe quasi reprehenderit ratione?
-    </p>
+  <div class="kotak1">
   </div>
 
-  <br><br><br><br>
 
-  <div class="clear">
-    <div class="float">float</div>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt laboriosam officiis, voluptas
-    nisi repudiandae
-    totam in doloremque ratione ea natus facilis soluta voluptates, repellat, quo corrupti dolorum? Id, explicabo,
-    molestiae magni quae sed soluta provident alias itaque omnis maiores doloremque qui, voluptas facere vero nostrum.
-    Nisi quisquam ducimus dicta tenetur?
+  <div class="kotak3">
+    parent
+    <div class="kotak2">
+      child
+    </div>
   </div>
 
 </body>
